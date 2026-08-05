@@ -1,0 +1,322 @@
+/* Custom Navbar Styling */
+.custom-navbar {
+  background-color: #3e444b; /* Sets background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds clean separating line below nav */
+  font-family: inherit;
+  font-size: 17px;
+}
+
+/* Active Page Indicator Style */
+.nav-link.active-link {
+  text-decoration: underline;
+}
+
+/* Responsive Mobile Spacing Overrides */
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .nav-item {
+    padding: 10px 0; /* Easier to tap with fingers on phone screens */
+  }
+
+  .nav-link.active-link {
+    border-bottom: none;
+    text-decoration: underline; /* Switches back to simple link layout on mobile drops */
+  }
+}
+
+.nav-link {
+  border-radius: 10px;
+}
+
+.custom-navbar .nav-link {
+  color: #edf4da;
+}
+
+.nav-link:hover {
+  background-color: #edf4da;
+  color: #3e444b !important;
+  /* opacity: 2.5; */
+  border-radius: 10px;
+}
+
+.header {
+  /* background: linear-gradient(180deg, #535d63, #a3ad95); */
+  background: conic-gradient(
+    from 135deg,
+    #ffffff 0deg,
+    #ffffe2 60deg,
+    #ffffbf 120deg,
+    #ffffa1 180deg,
+    #ffff88 240deg,
+    #f1ff76 300deg,
+    #d8ff6c 360deg
+  );
+
+  height: 1000px;
+  /* width: 100%; */
+  /* margin-bottom: 25px; */
+}
+
+.featured-section {
+  text-align: center;
+  background-color: #535d63;
+  color: #edf4da;
+  padding: 100px;
+  font-family: inherit;
+}
+
+/* Selects the container card */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  filter: brightness(97%);
+}
+
+/* Activates the zoom effect on hover */
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card .btn:hover {
+  filter: brightness(85%);
+}
+
+.creations-section {
+  background-color: white;
+  color: #3e444b;
+  font-family: inherit;
+  padding: 100px;
+}
+
+.creations-section hr {
+  padding-bottom: 50px;
+}
+
+/* .featured h1 {
+  padding-bottom: 25px;
+} */
+
+/* Structural Footer Fit */
+.site-footer {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #f8f9fa;
+  box-sizing: border-box;
+}
+
+.footer-col {
+  margin-bottom: 24px;
+}
+
+/* Icon Color Rules */
+.icon-red {
+  color: red;
+  vertical-align: middle;
+}
+
+/* Contact Alignment */
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+/* Responsive Socials Circular Border Styles */
+.socials a {
+  font-size: 20px; /* Adjusted icon font-size slightly to fit comfortably inside a 45px border circle */
+  transition: all 0.3s ease; /* Adds smooth transition logic for custom animations */
+  text-decoration: none;
+}
+
+/* Optional Custom Border Effects on Hover */
+.socials a:hover {
+  background-color: rgb(83, 93, 99); /* Subtle red shade background splash */
+  border-color: #a3ad95 !important; /* Turns the border line crisp red */
+  transform: translateY(-3px); /* Gently pops the icon upward on mouse hover */
+}
+
+footer {
+  font-family: inherit;
+  background-color: #3e444b !important;
+  color: #edf4da;
+}
+
+/* Custom Text Badge Border Styles for Right Side Links */
+.footer-links a {
+  transition: all 0.3s ease;
+  color: #edf4da;
+}
+
+.footer-links a:hover {
+  color: white !important; /* Forces text to glow crisp white against black badge fill */
+}
+
+/* Desktop Alignment Tweaks (Perfect fit for wider screens) */
+@media (min-width: 768px) {
+  .footer-col {
+    margin-bottom: 0; /* Drops vertical spacing since items sit side-by-side */
+  }
+}
+
+/* Socials Spacing */
+.socials a {
+  margin: 0 3px;
+  font-size: 24px;
+}
+
+/* Clean Links List */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+/* @media (min-width: 768px) {
+  .footer-col {
+    margin-bottom: 0;
+  }
+  .text-center-md {
+    text-align: center;
+  }
+  .text-end-md {
+    text-align: right;
+  }
+  .text-end-md .footer-links {
+    display: inline-block;
+    text-align: left;
+  }
+}
+
+footer ul {
+  list-style-type: none;
+} */
+
+/* Base Section Setup */
+.aboutme-eniola-olaniyi {
+  background-color: #535d63;
+  color: #ffffff; /* White text for contrast against grey */
+  font-family: inherit;
+  padding: 150px 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* About Me Section */
+.inside-aboutme {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* Stacked layout for mobile first */
+  gap: 40px;
+}
+
+/* Left Column Styling */
+.aboutme-left {
+  text-align: center;
+  flex: 1;
+}
+
+.image-wrapper {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 20px auto;
+  background-color: #ddd; /* Temporary placeholder color */
+  border-radius: 50%; /* Keeps the image circular */
+  overflow: hidden;
+}
+
+.Eniola_Olaniyi_Pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Custom Clean Divider */
+.section-divider {
+  width: 40px;
+  border: none;
+  border-top: 4px solid #edf4da;
+  margin: 0 auto;
+  opacity: 15;
+}
+
+/* Right Column Styling */
+.aboutme-right {
+  flex: 2;
+}
+
+.bio-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Sub-layout for Skills Layout */
+.skills-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.skills-category h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.skills-category .section-divider {
+  margin: 0 0 15px 0; /* Align divider to the left */
+}
+
+.skills-category ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+.skills-category li {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/* Desktop Styles (Perfect Screen Fit for wider displays) */
+@media (min-width: 768px) {
+  .inside-aboutme {
+    flex-direction: row; /* Side-by-side layout */
+    align-items: flex-start;
+    gap: 60px;
+  }
+
+  .aboutme-left {
+    text-align: left;
+    position: sticky; /* Keeps your name/photo visible as they scroll down long lists */
+    top: 20px;
+  }
+
+  .image-wrapper {
+    margin: 0 0 20px 0;
+  }
+
+  .section-divider {
+    margin: 15px 0;
+  }
+
+  .skills-grid {
+    flex-direction: row; /* Displays coding lists and audio lists side-by-side */
+    gap: 40px;
+  }
+
+  .skills-category {
+    flex: 1;
+  }
+}

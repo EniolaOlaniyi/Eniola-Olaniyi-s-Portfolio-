@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Creations</title>
+    <!-- The absolute root path required for your sandbox structure -->
+    <link rel="stylesheet" href="/styles.css" />
+    <!-- <link href="index.css" rel="stylesheet" type="text/css" /> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script defer src="https://friconix.com/cdn/friconix.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,WONK@1,9..144,100..900,1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Added 'sticky-top bg-white' to your class list -->
+    <nav class="navbar navbar-expand sticky-top custom-navbar">
+      <div class="container">
+        <!-- Added w-100 and justify-content-center to perfectly center the links -->
+        <div class="w-100 d-flex justify-content-center" id="mainNavbar">
+          <ul class="navbar-nav mb-2 mb-lg-0 text-center flex-row">
+            <li class="nav-item px-3 py-2 py-lg-0">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item px-3 py-2 py-lg-0">
+              <a class="nav-link" href="aboutme.html">About</a>
+            </li>
+            <li class="nav-item px-3 py-2 py-lg-0">
+              <a class="nav-link active-link" href="creations.html"
+                >Creations</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Added justify-content-center to center the flex child -->
+    <header
+      class="d-flex align-items-center justify-content-center header"
+      style="height: 1000px"
+    >
+      <div class="creations text-center">
+        <h1
+          style="
+            font-family: Fraunces, serif;
+            font-style: italic;
+            color: #3e444b;
+          "
+        >
+          Creations
+        </h1>
+        <hr class="section-divider" style="border-top: 4px solid #3e444b" />
+      </div>
+    </header>
+
+    <!-- Option A: Increased vertical padding using 'py-5' and custom inline padding for maximum control -->
+    <section
+      class="creations-section text-light"
+      style="
+        padding-top: clamp(40px, 8vw, 100px);
+        padding-bottom: clamp(40px, 8vw, 100px);
+        min-height: 80vh;
+      "
+    >
+      <div class="container">
+        <h1
+          class="display-3 fw-bold text-center text-md-start"
+          style="color: #3e444b"
+        >
+          Latest Creations
+        </h1>
+        <hr class="section-divider" style="border-top: 4px solid #3e444b" />
+
+        <div class="row g-4">
+          <!-- Card 1: The Escape -->
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+            <!-- Changed style: removed hardcoded height, using d-flex and flex-column for auto-matching row heights -->
+            <div
+              class="card w-100 d-flex flex-column"
+              style="
+                max-width: 30rem;
+                border-radius: 25px;
+                overflow: hidden;
+                border: none;
+              "
+            >
+              <!-- Changed image height to aspect-ratio for perfect cross-device scaling without stretching -->
+              <img
+                src="https://i.postimg.cc/c02sVvP5/TECover.png"
+                class="card-img-top fixed-size-img"
+                alt="The-Escape"
+                style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover"
+              />
+              <!-- Fixed style property typo and removed hardcoded height to allow text wrapping on mobile -->
+              <div
+                class="card-body d-flex flex-column align-items-start flex-grow-1"
+                style="background-color: #f4f4f4; padding: 1.5rem"
+              >
+                <h5 class="card-title fs-3" style="color: #3e444b">
+                  The Escape
+                </h5>
+                <p class="card-text mb-4" style="color: #3e444b">
+                  Implemented high-energy sounds including kick and snare,
+                  synth, and bass sounds
+                </p>
+                <a
+                  href="https://on.soundcloud.com/7rnkhLK7pGvQl8LAo5"
+                  class="btn btn-lg btn-primary rounded-pill mt-auto w-100 w-sm-auto"
+                  style="
+                    background-color: #3e444b;
+                    border-color: #3e444b;
+                    color: #f4f4f4;
+                  "
+                  target="_blank"
+                >
+                  Listen Now
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Wild and Free -->
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+            <div
+              class="card w-100 d-flex flex-column"
+              style="
+                max-width: 30rem;
+                border-radius: 25px;
+                overflow: hidden;
+                border: none;
+              "
+            >
+              <img
+                src="https://i.postimg.cc/1XFqd6Yh/Wild-and-Free-Cover.png"
+                class="card-img-top fixed-size-img"
+                alt="Wild-and-Free"
+                style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover"
+              />
+              <div
+                class="card-body d-flex flex-column align-items-start flex-grow-1"
+                style="background-color: #f4f4f4; padding: 1.5rem"
+              >
+                <h5 class="card-title fs-3" style="color: #3e444b">
+                  Wild and Free
+                </h5>
+                <p class="card-text mb-4" style="color: #3e444b">
+                  A short instrumental track that incorporates a synth/house
+                  sounds
+                </p>
+                <a
+                  href="https://on.soundcloud.com/c1is62E6ANZ9Aniv3k"
+                  class="btn btn-lg btn-primary rounded-pill mt-auto w-100 w-sm-auto"
+                  style="
+                    background-color: #3e444b;
+                    border-color: #3e444b;
+                    color: #f4f4f4;
+                  "
+                  target="_blank"
+                >
+                  Listen Now
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Chem X -->
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+            <div
+              class="card w-100 d-flex flex-column"
+              style="
+                max-width: 30rem;
+                border-radius: 25px;
+                overflow: hidden;
+                border: none;
+              "
+            >
+              <img
+                src="https://i.postimg.cc/Q8KLgmxR/Chem-X-Cove.png"
+                class="card-img-top fixed-size-img"
+                alt="Chem X"
+                style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover"
+              />
+              <div
+                class="card-body d-flex flex-column align-items-start flex-grow-1"
+                style="background-color: #f4f4f4; padding: 1.5rem"
+              >
+                <h5 class="card-title fs-3" style="color: #3e444b">Chem X</h5>
+                <p class="card-text mb-4" style="color: #3e444b">
+                  High-quality sounds using electronic-style beats
+                </p>
+                <a
+                  href="https://on.soundcloud.com/nvJh1dN3nv13mMsxcb"
+                  class="btn btn-lg btn-primary rounded-pill mt-auto w-100 w-sm-auto"
+                  style="
+                    background-color: #3e444b;
+                    border-color: #3e444b;
+                    color: #f4f4f4;
+                  "
+                  target="_blank"
+                >
+                  Listen Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+        <h2 style="padding-bottom: 30px; font-family: Bristol">
+          Eniola Olaniyi
+        </h2>
+        <div class="row">
+          <!-- Contact Section -->
+          <div class="col-md-3 footer-col">
+            <h4 style="color: white !important">Contact Me</h4>
+            <div class="contact-info">
+              <i class="fi-xwluxx-envelope-wide" style="color: #edf4da"></i>
+              <span style="margin-left: 4px">eolaniyibusines@gmail.com</span>
+            </div>
+          </div>
+
+          <!-- Social  -->
+          <!-- Fixed layout classes to handle mobile centering vs desktop left alignment -->
+          <div class="col-12 col-md-3 footer-col text-center text-md-start">
+            <!-- Replaced hardcoded padding with a clean margin class -->
+            <h4 class="mb-3" style="color: white !important">Socials</h4>
+
+            <!-- Added d-flex and gap-3 to space the icon elements cleanly -->
+            <div
+              class="socials d-flex gap-3 justify-content-center justify-content-md-start"
+            >
+              <!-- Applied border, circle clipping, sizing, and perfect alignment utilities -->
+              <a
+                href="https://www.youtube.com/@CapriWasTaken"
+                target="_blank"
+                class="border border-secondary rounded-circle d-inline-flex align-items-center justify-content-center"
+                style="width: 45px; height: 45px; text-decoration: none"
+              >
+                <i class="fi-xwsuxx-youtube" style="color: #edf4da"></i>
+              </a>
+
+              <a
+                href="https://www.instagram.com/yourfellowelo/"
+                target="_blank"
+                class="border border-secondary rounded-circle d-inline-flex align-items-center justify-content-center"
+                style="
+                  width: 45px;
+                  height: 45px;
+                  text-decoration: none;
+                  font-size: 20px;
+                "
+              >
+                <i class="fi-xnsuxx-instagram" style="color: #edf4da"></i>
+              </a>
+
+              <a
+                href="https://www.tiktok.com/@yourfellowelo"
+                target="_blank"
+                class="border border-secondary rounded-circle d-inline-flex align-items-center justify-content-center"
+                style="width: 45px; height: 45px; text-decoration: none"
+              >
+                <i class="fi-xnsuxx-tiktok-solid" style="color: #edf4da"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Links Section -->
+          <div class="col-md-3 footer-col text-end-md">
+            <ul class="footer-links">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/eniola-olaniyi-b44b7437a/"
+                  target="_blank"
+                  class="text-decoration-none"
+                  >Linkedin</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://on.soundcloud.com/wFAyrX6yWbuZzoTjkh"
+                  target="_blank"
+                  class="text-decoration-none"
+                  >SoundCloud</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- Quick Links -->
+          <div class="col-md-3 footer-col text-end-md">
+            <h4 style="margin-bottom: 30px; color: white !important">
+              Quick Links
+            </h4>
+            <ul class="footer-links">
+              <li>
+                <a
+                  href="index.html"
+                  class="text-decoration-none"
+                  style="font-size: 18px"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="aboutme.html"
+                  class="text-decoration-none"
+                  style="font-size: 18px"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none" style="font-size: 18px"
+                  >Creations</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

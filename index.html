@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Eniola Olaniyi</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <!-- <link href="index.css" rel="stylesheet" type="text/css" /> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!--Friconix Library-->
+    <script defer src="https://friconix.com/cdn/friconix.js"></script>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,WONK@1,9..144,100..900,1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Added 'sticky-top bg-white' to your class list -->
+    <nav class="navbar navbar-expand sticky-top custom-navbar">
+      <div class="container">
+        <!-- Added w-100 and justify-content-center to perfectly center the links -->
+        <div class="w-100 d-flex justify-content-center" id="mainNavbar">
+          <ul class="navbar-nav mb-2 mb-lg-0 text-center flex-row">
+            <li class="nav-item px-3 py-2 py-lg-0">
+              <a
+                class="nav-link active-link"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item px-3 py-2 py-lg-0">
+              <a class="nav-link" href="aboutme.html">About</a>
+            </li>
+            <li class="nav-item px-3 py-2 py-lg-0">
+              <a class="nav-link" href="creations.html">Creations</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="d-flex align-items-center header py-5">
+      <div class="container">
+        <!-- Row aligns items vertically on desktop and stacks them on mobile -->
+        <div class="row align-items-center g-4">
+          <!-- Left Side: Text Container (Sits left on desktop, stacks on top on mobile) -->
+          <div class="col-12 col-md-7 col-lg-8 text-center text-md-start">
+            <h1
+              class="display-4 fw-bold"
+              style="
+                font-family: Fraunces, serif;
+                font-style: italic;
+                color: #3e444b;
+              "
+            >
+              Eniola Olaniyi
+            </h1>
+
+            <p class="lead my-3" style="font-family: inherit; color: #3e444b">
+              Eniola Olaniyi, an aspiring audio and sound technician, has 3+
+              years of experience with audio production.
+            </p>
+
+            <hr class="section-divider" style="border-top: 4px solid #3e444b" />
+
+            <p
+              class="text-muted fw-semibold"
+              style="font-family: inherit; color: #3e444b !important"
+            >
+              Based in Los Angeles, CA
+            </p>
+          </div>
+
+          <!-- Right Side: Image Container (Sits right on desktop, stacks below text on mobile) -->
+          <div class="col-12 col-md-5 col-lg-4 text-center">
+            <!-- img-fluid makes it responsive; max-height keeps it proportional -->
+            <img
+              src="https://i.postimg.cc/Lsn8B1Lb/Project.jpg"
+              class="img-fluid rounded shadow-sm"
+              alt="Eniola
+            Olaniyi Profile"
+              style="
+                max-height: 350px;
+                object-fit: cover;
+                border-radius: 20px;
+                border: 10px solid #d6e5c2;
+              "
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="featured-section">
+      <h1>Featured Creations</h1>
+      <hr class="section-divider" style="width: 150px; margin: 10px auto" />
+      <p>
+        Featured Audio Creations, showcasing the Experience and Love of the Arts
+        and Music.
+      </p>
+      <p>Available on SoundCloud</p>
+
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+          <div
+            class="card w-100"
+            style="
+              max-width: 28rem;
+              border-radius: 25px;
+              overflow: hidden;
+              border: none;
+            "
+          >
+            <!-- Added ../ to step out of the styles folder if needed -->
+            <img
+              src="https://i.postimg.cc/Q8KLgmxR/Chem-X-Cove.png"
+              class="card-img-top fixed-size-img"
+              alt="Chem X Cover"
+              style="object-fit: cover"
+            />
+            <div
+              class="card-body d-flex flex-column"
+              style="background-color: #d6e5c2"
+            >
+              <h5
+                class="card-title text-dark"
+                style="
+                  font-size: 25px;
+                  padding-bottom: 15px;
+                  color: #3e444b !important;
+                "
+              >
+                Chem X
+              </h5>
+              <a
+                href="https://on.soundcloud.com/nvJh1dN3nv13mMsxcb"
+                class="btn btn-lg btn-primary mt-auto rounded-pill py-2"
+                style="
+                  background-color: #3e444b;
+                  border-color: #3e444b;
+                  color: white;
+                "
+                target="_blank"
+                >Listen Now</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+          <div
+            class="card w-100"
+            style="
+              max-width: 28rem;
+              border-radius: 25px;
+              overflow: hidden;
+              border: none;
+            "
+          >
+            <img
+              src="https://i.postimg.cc/c02sVvP5/TECover.png"
+              class="card-img-top fixed-size-img"
+              alt="TE Cover"
+              style="object-fit: cover"
+            />
+            <div
+              class="card-body d-flex flex-column"
+              style="background-color: #d6e5c2"
+            >
+              <h5
+                class="card-title text-dark"
+                style="
+                  font-size: 25px;
+                  padding-bottom: 15px;
+                  color: #3e444b !important;
+                "
+              >
+                The Escape
+              </h5>
+              <a
+                href="https://on.soundcloud.com/7rnkhLK7pGvQl8LAo5"
+                class="btn btn-lg btn-primary mt-auto rounded-pill py-2"
+                style="
+                  background-color: #3e444b;
+                  border-color: #3e444b;
+                  color: white;
+                "
+                target="_blank"
+                >Listen Now</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+          <div
+            class="card w-100"
+            style="
+              max-width: 28rem;
+              border-radius: 25px;
+              overflow: hidden;
+              border: none;
+            "
+          >
+            <img
+              src="https://i.postimg.cc/1XFqd6Yh/Wild-and-Free-Cover.png"
+              class="card-img-top fixed-size-img"
+              style="object-fit: cover"
+              alt="Wild and Free"
+            />
+            <div
+              class="card-body d-flex flex-column"
+              style="background-color: #d6e5c2; height: 150px"
+            >
+              <h5
+                class="card-title text-dark"
+                style="
+                  font-size: 25px;
+                  padding-bottom: 15px;
+                  color: #3e444b !important;
+                "
+              >
+                Wild and Free
+              </h5>
+              <a
+                href="https://on.soundcloud.com/c1is62E6ANZ9Aniv3k"
+                class="btn btn-lg btn-primary mt-auto rounded-pill py-2"
+                style="
+                  background-color: #3e444b;
+                  border-color: #3e444b;
+                  color: white;
+                "
+                target="_blank"
+                >Listen Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+        <h2 style="padding-bottom: 30px; font-family: Bristol">
+          Eniola Olaniyi
+        </h2>
+        <div class="row">
+          <!-- Contact Section -->
+          <div class="col-md-3 footer-col">
+            <h4 style="color: white !important">Contact Me</h4>
+            <div class="contact-info">
+              <i class="fi-xwluxx-envelope-wide" style="color: #edf4da"></i>
+              <span style="margin-left: 4px">eolaniyibusines@gmail.com</span>
+            </div>
+          </div>
+
+          <!-- Social  -->
+          <!-- Fixed layout classes to handle mobile centering vs desktop left alignment -->
+          <div class="col-12 col-md-3 footer-col text-center text-md-start">
+            <!-- Replaced hardcoded padding with a clean margin class -->
+            <h4 class="mb-3" style="color: white !important">Socials</h4>
+
+            <!-- Added d-flex and gap-3 to space the icon elements cleanly -->
+            <div
+              class="socials d-flex gap-3 justify-content-center justify-content-md-start"
+            >
+              <!-- Applied border, circle clipping, sizing, and perfect alignment utilities -->
+              <a
+                href="https://www.youtube.com/@CapriWasTaken"
+                target="_blank"
+                class="border border-secondary rounded-circle d-inline-flex align-items-center justify-content-center"
+                style="width: 45px; height: 45px; text-decoration: none"
+              >
+                <i class="fi-xwsuxx-youtube" style="color: #edf4da"></i>
+              </a>
+
+              <a
+                href="https://www.instagram.com/yourfellowelo/"
+                target="_blank"
+                class="border border-secondary rounded-circle d-inline-flex align-items-center justify-content-center"
+                style="
+                  width: 45px;
+                  height: 45px;
+                  text-decoration: none;
+                  font-size: 20px;
+                "
+              >
+                <i class="fi-xnsuxx-instagram" style="color: #edf4da"></i>
+              </a>
+
+              <a
+                href="https://www.tiktok.com/@yourfellowelo"
+                target="_blank"
+                class="border border-secondary rounded-circle d-inline-flex align-items-center justify-content-center"
+                style="width: 45px; height: 45px; text-decoration: none"
+              >
+                <i class="fi-xnsuxx-tiktok-solid" style="color: #edf4da"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Links Section -->
+          <div class="col-md-3 footer-col text-end-md">
+            <ul class="footer-links">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/eniola-olaniyi-b44b7437a/"
+                  target="_blank"
+                  class="text-decoration-none"
+                  >Linkedin</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://on.soundcloud.com/wFAyrX6yWbuZzoTjkh"
+                  target="_blank"
+                  class="text-decoration-none"
+                  >SoundCloud</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- Quick Links -->
+          <div class="col-md-3 footer-col text-end-md">
+            <h4 style="margin-bottom: 30px; color: white !important">
+              Quick Links
+            </h4>
+            <ul class="footer-links">
+              <li>
+                <a href="#" class="text-decoration-none" style="font-size: 18px"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="aboutme.html"
+                  class="text-decoration-none"
+                  style="font-size: 18px"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="creations.html"
+                  class="text-decoration-none"
+                  style="font-size: 18px"
+                  >Creations</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
