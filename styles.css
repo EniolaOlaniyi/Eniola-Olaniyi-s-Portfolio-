@@ -45,16 +45,7 @@
 
 .header {
   /* background: linear-gradient(180deg, #535d63, #a3ad95); */
-  background: conic-gradient(
-    from 135deg,
-    #ffffff 0deg,
-    #ffffe2 60deg,
-    #ffffbf 120deg,
-    #ffffa1 180deg,
-    #ffff88 240deg,
-    #f1ff76 300deg,
-    #d8ff6c 360deg
-  );
+  background: conic-gradient(from 315deg, #ffd821 0.000deg, #ffff6e 72.000deg, #ffffc4 144.000deg, #ffffff 216.000deg, #ffffff 288.000deg, #fffae5 360.000deg);
 
   height: 1000px;
   /* width: 100%; */
